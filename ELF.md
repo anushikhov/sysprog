@@ -13,3 +13,13 @@ https://linuxhint.com/understanding_elf_file_format/
 https://linux-audit.com/elf-binaries-on-linux-understanding-and-analysis/  
 
 https://www.opensourceforu.com/2020/02/understanding-elf-the-executable-and-linkable-format/ 
+
+The three main uses of ELF: executable, shared library, object file.  
+
+Each ELF file can contain zero or more segments and sections.  
+
+Segments are exclusively used during runtime, sections are almost exclusively used at link time.  
+
+You can, therefore have an ELF executable that only contains segments and an object file that only contains sections.  
+
+
