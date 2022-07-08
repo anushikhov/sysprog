@@ -32,3 +32,9 @@ We can manipulate an ELF in two different ways:
 
 ` # Setting RUNPATH `  
 ` patchelf --set-rpath <desired-rpath> <path-to-elf> `   
+
+....   
+
+## $ORIGIN  
+
+On Linux/Solaris, specify any RPATH setting one requires to look up the location of a package's private libraries via a relative expression, to not lose the capability to provide a fully relocatable package.  
