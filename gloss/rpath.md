@@ -38,3 +38,7 @@ We can manipulate an ELF in two different ways:
 ## $ORIGIN  
 
 On Linux/Solaris, specify any RPATH setting one requires to look up the location of a package's private libraries via a relative expression, to not lose the capability to provide a fully relocatable package.  
+
+
+https://youtube.com/watch?v=01fnuhjMwc0  
+

@@ -22,4 +22,5 @@ Segments are exclusively used during runtime, sections are almost exclusively us
 
 You can, therefore have an ELF executable that only contains segments and an object file that only contains sections.  
 
+https://youtube.com/watch?v=nC1U1LJQL8o  
 
