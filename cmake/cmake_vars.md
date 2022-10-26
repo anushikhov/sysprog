@@ -1,0 +1,1 @@
+CMAKE_CURRENT_LIST_DIR - full directory of the listfile currently being processed. As CMake processes the listfiles in your project this variable will always be set to the directory where the listfile which is currently being processed (CMAKE_CURRENT_LIST_FILE) is located.  
