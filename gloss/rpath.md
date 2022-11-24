@@ -1,5 +1,9 @@
 # R[UN]PATH (Runtime Search Path)   
 
+RPATH is a mechanism to include a list of directories in a binary where required shared libraries may be available. These locations are considered by the dynamic loader (ld* .so) to locate the libraries that are required by a particular binary.
+
+RPATH designates the run-time search path hard-coded in an executable file or library. Dynamic linking loaders use the rpath to find required libraries. Specifically, it encodes a path to shared libraries into the header of an executable (or another shared library).
+
 Both `RPATH` and `RUNPATH` are optional entries in the `.dynamic` section of ELF executables or shared libraries.  
 
 Their goal is to allow programmers alter the behavior of the dynamic loader.  
